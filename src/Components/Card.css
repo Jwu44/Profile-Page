@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700,600");
+
+/* Linear Background */
+.Background {
+    align-items: flex-start;
+    background-size: 100% 100%;
+    display: flex;
+    position: relative;
+    min-width: 1440px;
+    height: 1024px;
+    padding: 0 170px;
+}
+
+body {
+	background: linear-gradient(116.82deg, #4539CA 0.43%,  #2EE5A3 98.96%);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* Main Card */
+.Card {
+    position: relative;
+    width: 1100px;
+    height: 600px;
+    left: 170px;
+    top: 212px;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+/* Left Dark Blue Rectangle on Card */
+.inner-rectangle {
+    position: absolute;
+    width: 550px;
+    height: 600px;
+    left: 0;
+    top: 0;
+
+    background: #0E0E52;
+    border-radius: 8px 0px 0px 8px;
+}
+
+/* Right Rectangle on Card -> Modifying Picture */
+.melbs-portrait {
+    height: 600px;
+    left: 575px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 500px;
+}
+
+/* Title */
+.title {
+    position: absolute;
+    width: 475px;
+    height: 50px;
+    left: 47px;
+    top: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 53px;
+    letter-spacing: 0.1em;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+/* First paragraph */
+.first-paragraph {
+    position: absolute;
+    width: 435px;
+    height: 204px;
+    left: 47px;
+    top: 147px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.08em;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+.bolded {
+    font-weight: 700;
+}
+
+/* Tools Used Section */
+.tools-used {
+    position: absolute;
+    width: 200px;
+    height: 34px;
+    left: 47px;
+    top: 383px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+
+    letter-spacing: 0.08em;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+/* Tools Box */
+.react-tool-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    left: 50px;
+    top: 435px;
+
+    background: #0E0E52;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.js-tool-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    left: 145px;
+    top: 435px;
+
+    background: #0E0E52;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.css-tool-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    left: 215px;
+    top: 435px;
+
+    background: #0E0E52;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.html-tool-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    left: 300px;
+    top: 435px;
+
+    background: #0E0E52;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.figma-tool-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 45px;
+    height: 25px;
+    left: 405px;
+    top: 435px;
+
+    background: #0E0E52;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.tool-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+/* Say Hi! Button */
+a.contact-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 30px;
+    gap: 10px;
+
+    position: absolute;
+    width: 90px;
+    height: 35px;
+    left: 47px;
+    top: 510px;
+
+    background: #192BC2;
+    border-radius: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a.contact-button:hover {
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+}
+
+/* External Links */
+.github-img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 255px;
+    top: 510px;
+    object-fit: cover;
+}
+
+.linkedin-img {
+    position: absolute;
+    width: 59px;
+    height: 50px;
+    left: 345px;
+    top: 510px;
+    object-fit: cover;
+}
+
+.hackerrank-img {
+    position: absolute;
+    width: 46px;
+    height: 50px;
+    left: 435px;
+    top: 510px;
+    object-fit: cover;
+}
