@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "61b5a52b0eeac885f64d",
+    "revision": "2adf32957649e5d36677",
     "url": "/Profile-Page/static/css/main.034ebd9f.chunk.css"
   },
   {
-    "revision": "61b5a52b0eeac885f64d",
-    "url": "/Profile-Page/static/js/main.1b87d2c6.chunk.js"
+    "revision": "2adf32957649e5d36677",
+    "url": "/Profile-Page/static/js/main.4f154e85.chunk.js"
   },
   {
     "revision": "c6039d71effaa13bcc20",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/Profile-Page/static/media/Melbs Portrait.f35a9aba.png"
   },
   {
-    "revision": "e25c7d8f72755e0effd5b3a0d2307952",
+    "revision": "435093c793fcda158774b40d76223d4a",
     "url": "/Profile-Page/index.html"
   }
 ];
