@@ -1,16 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Inter:400,700,600");
 
 /* Linear Background */
-body {
+.Background {
     align-items: flex-start;
     background-size: 100% 100%;
     display: flex;
     position: relative;
-	background: linear-gradient(116.82deg, #4539CA 0.43%,  #2EE5A3 98.96%);
-	animation: gradient 15s ease infinite;
     min-width: 1440px;
-	height: 100vh;
+    height: 1024px;
     padding: 0 170px;
+    background: linear-gradient(116.82deg, #4539CA 0.43%,  #2EE5A3 98.96%);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
 }
 
 @keyframes gradient {
